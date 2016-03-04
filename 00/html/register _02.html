@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>博客登陆注册页面</title>
+<style>
+a{
+	text-decoration:none;
+	}
+</style>
+<!-- <script language="javascript"> 
+   function login(){
+   var name=document.getElementById("name").value;
+   var pass=document.getElementById("pass").value;
+   if(name=="蒋清瀚" && pass=="2014213804"){
+   alert("登入成功");
+   window.location="stage1.html" 
+   }else{
+   alert("用户名或密码错误");
+     window.location.reload() ;
+     }   
+   }
+</script> -->
+<body>
+<form name="form1" action="http://localhost/php/LoginCheck_02.php" method="post">
+用户名:<input type="text" id="name" name="username"><br>
+密码:&nbsp;<input type="password" name="password" id="pass"><br>
+<input type="submit" name="submit" value="登陆" onClick="login()">
+<br>
+<a href="http://localhost/html/zhuce_yemian_02.html">注册</a><br>
+<a href="http://localhost/html/ad_denglu.html">管理员登陆</a><br>
+
+
+</form> 
+</body>
+</html>
